@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер км и миль</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+<div class="headerr"><h3>Конвертер значений</h3></div>
+
+<div class="bg">
+
+    <div class="text1">Конвертер миль в километры</div>
+<input id="MilesToKm" oninput="MilesTokilom()" class="custominput" type="number" placeholder="Введите кол-во миль">
+<span class="disa">≈ <span class="text2" id="ResultMilesToKm"></span></span>
+
+<br>
+
+<div class="text1">Конвертер километров в мили</div>
+<input id="KmToMiles" oninput="KmToMiles()" class="custominput" type="number" placeholder="Введите кол-во км.">
+<span class="disa">≈ <span class="text2" id="ResultKmToMiles"></span></span>
+
+<br><br><hr style="border-color: black;"><br>
+
+<div class="text1">Конвертер сантиметров в дюймы</div>
+<input id="SmToDy" oninput="SmToDy()" class="custominput" type="number" placeholder="Введите кол-во дюймов">
+<span class="disa">≈<span class="text3" id="ResultSmToDy"></span></span>
+
+<br>
+
+<div class="text1">Конвертер дюймы в сантиметры</div>
+<input id="DyToSm" oninput="DyToSm()" class="custominput" type="number" placeholder="Введите кол-во см.">
+<span class="disa">≈<span class="text3" id="ResultDyToSm"></span></span>
+</div>
+</body>
+</html>
